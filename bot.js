@@ -13,12 +13,12 @@ const CONFIG = {
     hcaptchaSitekey: '792e708c-cd5a-4380-a378-d596910024fc',
     hcaptchaUrl: 'https://umcoin.org/',
     delays: {
-        betweenActions: 2000,
-        betweenUsers: 5000,
-        afterCaptchaSet: 2000, // Add delay after setting captcha
-        afterCloudflareDetection: 20000 // Longer delay after Cloudflare detection
+        betweenActions: 10000,
+        betweenUsers: 10000,
+        afterCaptchaSet: 10000, // Add delay after setting captcha
+        afterCloudflareDetection: 35000 // Longer delay after Cloudflare detection
     },
-    maxRetries: 5 // Maximum number of retries for failed actions
+    maxRetries: 10 // Maximum number of retries for failed actions
 };
 
 // Read user handles and wallets from files
