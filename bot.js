@@ -15,8 +15,8 @@ const CONFIG = {
     delays: {
         betweenActions: 2000,
         betweenUsers: 5000,
-        afterCaptchaSet: 1000, // Add delay after setting captcha
-        afterCloudflareDetection: 10000 // Longer delay after Cloudflare detection
+        afterCaptchaSet: 2000, // Add delay after setting captcha
+        afterCloudflareDetection: 20000 // Longer delay after Cloudflare detection
     },
     maxRetries: 5 // Maximum number of retries for failed actions
 };
