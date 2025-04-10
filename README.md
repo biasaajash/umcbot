@@ -1,3 +1,3 @@
 # umcbot
 
-npm install axios
+npm install axios 2captcha anticaptcha
